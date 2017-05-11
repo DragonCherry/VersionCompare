@@ -17,7 +17,7 @@ print("\(UIDevice.isVersion("0.5.29", greaterThanOrEqualTo: "0.5.3"))")
 
 # Installation
 
-HFSwipeView is available through [CocoaPods](http://cocoapods.org). To install
+VersionCompare is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
