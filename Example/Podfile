@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VersionCompare_Example' do
+  pod 'VersionCompare', :path => '../'
+
+  target 'VersionCompare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
