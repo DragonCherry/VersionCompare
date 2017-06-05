@@ -1,5 +1,5 @@
 //
-//  UIDevice+Version.swift
+//  String+Version.swift
 //  Pods
 //
 //  Created by DragonCherry on 5/11/17.
@@ -39,12 +39,4 @@ extension String {
     public func isVersion(greaterThanOrEqualTo targetVersion: String) -> Bool { return compare(toVersion: targetVersion) != .orderedAscending }
     public func isVersion(lessThan targetVersion: String) -> Bool { return compare(toVersion: targetVersion) == .orderedAscending }
     public func isVersion(lessThanOrEqualTo targetVersion: String) -> Bool { return compare(toVersion: targetVersion) != .orderedDescending }
-}
-
-extension UIDevice {
-    open class func isSystemVersion(equalTo version: String) -> Bool { return UIDevice.current.systemVersion.isVersion(equalTo: version) }
-    open class func isSystemVersion(greaterThan version: String) -> Bool { return UIDevice.current.systemVersion.isVersion(greaterThan: version) }
-    open class func isSystemVersion(greaterThanOrEqualTo version: String) -> Bool { return UIDevice.current.systemVersion.isVersion(greaterThanOrEqualTo: version) }
-    open class func isSystemVersion(lessThan version: String) -> Bool { return UIDevice.current.systemVersion.isVersion(lessThan: version) }
-    open class func isSystemVersion(lessThanOrEqualTo version: String) -> Bool { return UIDevice.current.systemVersion.isVersion(lessThanOrEqualTo: version) }
 }
