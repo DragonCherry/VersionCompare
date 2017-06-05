@@ -1,5 +1,5 @@
 PODS:
-  - VersionCompare (1.0.0)
+  - VersionCompare (1.0.2)
 
 DEPENDENCIES:
   - VersionCompare (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VersionCompare: 4671839041f245fb8434839d7d750fdb04e3c079
+  VersionCompare: b1d7e42d360bf587a4b524532085603bb84466ed
 
 PODFILE CHECKSUM: 05f19be9f18f7d108931e3ca6dc3974d1aafbc22
 
