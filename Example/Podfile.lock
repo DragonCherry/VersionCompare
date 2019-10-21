@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   VersionCompare:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  VersionCompare: b1d7e42d360bf587a4b524532085603bb84466ed
+  VersionCompare: da872d1495bd1d468d6ece02b061842c1142e697
 
 PODFILE CHECKSUM: 05f19be9f18f7d108931e3ca6dc3974d1aafbc22
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.8.4
